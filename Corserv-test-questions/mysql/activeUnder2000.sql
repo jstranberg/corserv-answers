@@ -1,0 +1,11 @@
+SELECT 
+	c.`FIRST NAME`
+	,c.`LAST NAME`
+FROM 	
+	Customer c
+JOIN 
+  Account a ON a.CARD_NUM = c.`CARD NUMBER`
+WHERE
+	a.STATUS = `ACTIVE`
+	AND a.BALANCE < 2000
+;
