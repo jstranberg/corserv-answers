@@ -1,1 +1,0 @@
-// url is https://www.discovercard.com/application/website/apply?adpt=mn&srcCde=KXPA
